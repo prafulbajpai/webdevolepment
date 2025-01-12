@@ -1,0 +1,22 @@
+p{
+    color: red;
+    background-color: yellow;
+    border: 10px solid blue ;
+    margin: 28px;
+    padding: 38px;
+    height: 200px;
+    box-sizing: border-box;
+}
+div{
+    color: rgb(20, 189, 215);
+    background-color: rgb(147, 9, 115);
+    border: 10px solid rgb(255, 0, 25) ;
+    margin: 28px;
+    padding: 38px;
+    height: 200px;
+    box-sizing: border-box;
+}
+h1{
+ background-color: black;
+    color: aqua;
+}

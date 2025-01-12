@@ -1,0 +1,10 @@
+
+h1{
+    text-underline-position: auto ;
+   background-color: palevioletred;
+}
+div{
+   -ms-text-size-adjust: inherit;
+ background-color: rgb(8, 55, 74);
+ color: azure;
+}
