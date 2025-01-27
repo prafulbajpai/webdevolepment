@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using variables </title>
+</head>
+<style>
+    :root{
+        --color: blue;
+        --seccolor: rgb(136, 136, 241);
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .ol {
+        background-color: aqua;
+        list-style: none;
+        display: flex;
+    }
+    ol li {
+        padding: 17px;
+    }
+.loren{
+    display: flex;
+    background-color: aquamarine;
+}
+:first-child  li{
+    --color : pink;
+    background-color:var(--color)
+}
+</style>
+
+<body>
+    <ol class="ol">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ol>
+    <p class="loren">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate quas inventore, a laudantium ea.
+        Quam non perferendis quaerat fugit sed cumque dolore obcaecati repellat ullam eaque, quis aperiam minus est
+        soluta voluptate iusto nesciunt placeat, provident distinctio. Facilis molestias porro aut pariatur quaerat
+        voluptatem?
+    </p>
+</body>
+
+</html>
